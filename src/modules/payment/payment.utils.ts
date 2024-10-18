@@ -13,7 +13,7 @@ export const initiatePayment = async (paymentData: TPaymentDataProps) => {
     signature_key: config.signature_key,
     tran_id: paymentData.transactionId,
     success_url:
-      'https://bike-rental-reservation-system-backend-coral.vercel.app/api/payment/confirmation',
+      'http://localhost:3000/api/v1/payment/confirmation',
     fail_url: 'http://www.merchantdomain.com/failedpage.html',
     cancel_url: 'http://www.merchantdomain.com/cancellpage.html',
     amount: paymentData.totalCost,
