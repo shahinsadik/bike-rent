@@ -4,6 +4,7 @@ import { BikeServices } from './bike.service';
 import sendResponse from '../../utils/sendResponse';
 import httpStatus from 'http-status';
 
+
 //* create bike into db
 const createBike: RequestHandler = catchAsync(async (req, res) => {
   const result = await BikeServices.createBikeIntoDB(req.body);
