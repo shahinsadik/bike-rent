@@ -1,6 +1,7 @@
 import { Schema, model } from 'mongoose';
 import { TRental } from './rental.interface';
 
+
 const rentalSchema = new Schema<TRental>({
   userId: {
     type: Schema.Types.ObjectId,
