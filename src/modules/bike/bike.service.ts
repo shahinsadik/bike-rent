@@ -9,6 +9,7 @@ const createBikeIntoDB = async (payload: TBike) => {
   return result;
 };
 
+
 //* get all bike from db
 const getAllBikesFromDB = async () => {
   const result = await Bike.find();
