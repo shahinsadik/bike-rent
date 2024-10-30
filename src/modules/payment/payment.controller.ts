@@ -9,6 +9,7 @@ const paymentConfirmation = async (req: Request, res: Response) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Payment Success</title>
         <style>
+        
             body {
                 font-family: Arial, sans-serif;
                 background-color: #f7f7f7;
